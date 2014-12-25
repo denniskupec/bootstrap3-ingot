@@ -1,4 +1,6 @@
-bootstrap3-ingot
+Ingot
 ================
+Theme for Bootstrap 3
 
-Bootstrap 3 Theme
+Grey bootstrap theme because who needs color.  
+Also removed all of the nasty rounded edges (razor sharp).
