@@ -1,0 +1,237 @@
+
+/*
+* Ingot v0.1 (http://github.com/denniskupec/bootstrap3-ingot)
+* Copyright 2014 Dennis Kupec
+* Licensed under MIT
+*
+* Bootstrap v3.3.1 | MIT License | http://getbootstrap.com
+* normalize.css v3.0.2 | MIT License | git.io/normalize
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic');
+
+
+/* base */
+* {
+   border-radius: 0 !important;
+}
+
+body {
+   background: none repeat scroll 0 0 #1F1F1F;
+   font-family: 'Open Sans', sans-serif;
+   color: #FFF;
+}
+
+body .inverse {
+   background-color: #C0C0C0;
+}
+
+h1,
+h2,
+h3, 
+h4, 
+h5 {
+   color: #B2C831;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: lighter;
+}
+
+a {
+   color: #B2C831;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #DFF948;
+   text-decoration: none;
+}
+
+
+/* navbar */
+.navbar-default {
+   background-color: #141414;
+   border: none;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+   color: #FFF;
+   background-color: #141414;
+}
+
+.navbar-inverse {
+   background-color: #3B3B3B;
+   border: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+   color: #FFF;
+   background-color: #3B3B3B;
+}
+
+.navbar-fixed-top ~ .container {
+   margin-top: 60px;
+}
+
+
+/* tables */
+table thead tr {
+   border-top: 1px solid #313131;
+   background: #4A4A4A;
+   height: 30px;
+}
+
+table thead th {
+   color: #B2C831;
+   border-bottom: 2px solid #DDD;
+   font-size: 12px;
+}
+
+table tbody {
+   border-top: 1px solid #313131;
+   border-bottom: 1px solid #313131;
+}
+
+table td { 
+   padding: 8px 10px;
+   border-right: 1px solid #313131; 
+}
+
+table tbody tr:hover { 
+   background-color: #424242;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+   background-color: #292929;
+}
+
+.table-striped tbody tr:nth-child(odd):hover {
+   background-color: #424242;
+}
+
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td {
+   padding: 8px;
+   border: 1px solid #313131;
+   font-size: 12px;
+   line-height: 1.42857;
+   vertical-align: top;
+   border-top: 1px solid #313131;
+}
+
+/* alerts */
+.alert {
+   background-color: #FAA732;
+   color: #FFF;
+   border: none;
+}
+
+.alert-success {
+   background-color: #5BB75B;
+}
+
+.alert-danger,
+.alert-error {
+   background-color: #FC5B5E;
+}
+
+.alert-info {
+   background-color: #3A87AD;
+}
+
+
+/* misc elements */
+.jumbotron,
+.well {
+   background-color: #3D3D3D;
+}
+
+.well {
+   border: none;
+   padding: 10px;
+}
+
+.modal-header {
+   background-color: #4F4F4F;
+   color: #FFF;
+}
+
+.page-header {
+   padding-bottom: 10px;
+   margin: 40px 0px 20px;
+   border-bottom: 1px solid #313131;
+}
+
+
+/* progress bars */
+.progress {
+}
+
+.progress-bar-success {
+  background-color: #5BB75B;
+}
+
+.progress-bar-danger,
+.progress-bar-warning,
+.progress-bar-error {
+  background-color: #FC5B5E;
+}
+
+.progress-bar-info {
+  background-color: #3A87AD;
+}
+
+
+/* panels */
+.panel {
+   margin-bottom: 20px;
+   background-color: #FFF;
+   border: none;
+   color: #FFF;
+}
+
+.panel-body {
+   padding: 10px;
+   color: #151515;
+}
+
+.panel-heading {
+   padding: 10px;
+}
+
+.panel-title {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 16px;
+   color: #FFF;
+}
+
+.panel-default > .panel-heading {
+   background-color: #383737;
+}
+
+.panel-primary > .panel-heading {
+   background-color: #337AB7;
+}
+
+
+.panel-success > .panel-heading {
+   background-color: #5BB75B;
+}
+
+.panel-info > .panel-heading {
+   background-color: #3A87AD;
+}
+
+.panel-warning > .panel-heading,
+.panel-danger > .panel-heading,
+.panel-error > .panel-heading {
+   background-color:  #FC5B5E;
+}
